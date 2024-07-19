@@ -1,0 +1,16 @@
+runtime: python39
+
+service: practica
+
+handlers:
+- url: /static
+  static_dir: static
+
+- url: /.*
+  script: auto
+
+env_variables:
+  CLOUDSQL_CONNECTION_NAME: skilled-bee-428120-c9:europe-southwest1:practica
+  DB_USER: alumno
+  DB_PASSWORD: googlecloud
+  DB_NAME: google
