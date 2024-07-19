@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Configuración de variables
-GROUP_IP="http://34.175.51.116"  # Reemplazar con la dirección IP del grupo de instancias
+GROUP_IP=34.175.150.167  # Reemplazar con la dirección IP del grupo de instancias
 REQUESTS_PER_SECOND=10           # Número de solicitudes por segundo
 DURATION=$((5 * 24 * 60 * 60))   # Duración de la simulación en segundos (5 días)
 LOGFILE="autoscaling_apache.log" # Archivo de log para registros
