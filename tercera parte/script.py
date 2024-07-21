@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Configuración de variables
-GROUP_IP=34.175.150.167  # Reemplazar con la dirección IP del grupo de instancias
+GROUP_IP=34.175.51.116  # Reemplazar con la dirección IP del grupo de instancias
 RETRY_COUNT=3             # Número de intentos para verificar el servidor
 RETRY_DELAY=5             # Retardo en segundos entre intentos
 TIMEOUT=10                # Tiempo máximo de espera para cada solicitud HTTP en segundos
