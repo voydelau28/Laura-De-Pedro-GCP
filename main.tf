@@ -9,7 +9,7 @@ terraform {
 
 provider "google" {
   # Configuration options
-  project = "crypto-truck-428120-d4"
+  project = "skilled-bee-428120-c9"
   region = "europe-southwest1"
   zone = "europe-southwest1-a"
   credentials = file("credencial.json")
